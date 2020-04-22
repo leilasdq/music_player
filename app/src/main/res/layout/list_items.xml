@@ -11,7 +11,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="120dp"
+        android:layout_height="wrap_content"
         android:layout_margin="8dp"
         android:background="@android:color/transparent">
 
@@ -25,11 +25,13 @@
             android:src="@drawable/ic_music" />
 
         <TextView
+            android:maxLines="1"
+            android:ellipsize="end"
             android:id="@+id/music_name"
             android:gravity="left"
             tools:text="Song Name"
             android:textColor="@color/primaryTextColor"
-            android:textSize="20sp"
+            android:textSize="18sp"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             app:layout_constraintLeft_toRightOf="@id/music_img"
@@ -40,11 +42,13 @@
             android:layout_marginLeft="16sp"/>
 
         <TextView
+            android:maxLines="1"
+            android:ellipsize="end"
             android:id="@+id/music_singer"
             android:gravity="left"
             tools:text="Song Name"
             android:textColor="@color/secondaryTextColor"
-            android:textSize="16sp"
+            android:textSize="14sp"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             app:layout_constraintLeft_toRightOf="@id/music_img"

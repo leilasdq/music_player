@@ -6,6 +6,6 @@
     <color name="primaryTextColor">#ffffff</color>
     <color name="secondaryTextColor">#CFCACA</color>
     <color name="backgroundCenterColor">#610822</color>
-    <color name="backgroundStartColor">#7A1636</color>
+    <color name="backgroundStartColor">#730F2F</color>
     <color name="backgroundEndColor">#23020A</color>
 </resources>
