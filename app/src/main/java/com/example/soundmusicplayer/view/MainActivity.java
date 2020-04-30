@@ -1,8 +1,10 @@
-package com.example.soundmusicplayer;
+package com.example.soundmusicplayer.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.soundmusicplayer.R;
 
 public class MainActivity extends AppCompatActivity {
 

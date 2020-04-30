@@ -1,12 +1,12 @@
-package com.example.soundmusicplayer
+package com.example.soundmusicplayer.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.example.soundmusicplayer.databinding.ListItemsBinding
+import com.example.soundmusicplayer.model.Music
 
 class MusicAdapter: ListAdapter<Music, MusicAdapter.MusicViewHolder>(MusicDiffUtils()) {
 
